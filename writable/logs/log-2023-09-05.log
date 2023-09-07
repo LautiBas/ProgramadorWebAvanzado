@@ -1,0 +1,7 @@
+CRITICAL - 2023-09-05 23:46:44 --> Call to undefined method CodeIgniter\Router\RouteCollection::pos()
+in APPPATH\Config\Routes.php on line 16.
+ 1 SYSTEMPATH\Router\RouteCollection.php(337): require()
+ 2 SYSTEMPATH\CodeIgniter.php(783): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 3 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

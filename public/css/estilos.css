@@ -1,0 +1,20 @@
+body{
+    background-color: rgb(117, 174, 230);
+}
+
+.tabla{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tabla th{
+    background-color: rgb(245, 176, 230);
+    border: 2px solid black;
+}
+
+.tabla td{
+    text-align: center;
+    background-color: aliceblue;
+    padding: 10px;
+    border: 2px solid black;
+}
